@@ -1,5 +1,5 @@
 # Part 1: Layer Model
-## What are the five layers in the Internet protocol stack? What are the principal responsibilities of each of these layers?
+#### What are the five layers in the Internet protocol stack? What are the principal responsibilities of each of these layers?
 * Application Layer
     * RESPONSIBILITY
 * Transport Layer
