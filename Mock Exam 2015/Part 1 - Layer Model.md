@@ -37,7 +37,7 @@
 * i. Assuming no other traffic in the network, what is the throughput for the file transfer?
     * 500kbps
 * ii. Suppose the file is 4 million bytes. Dividing the file size by the throughput, roughly how long will it take to transfer the file to Host B?
-    * (4*10<sup>6</sup>*8)/(500*10<sup>3</sup>) = 64 seconds
+    * (4`*`10<sup>6</sup>`*`8)/(500`*`10<sup>3</sup>) = 64 seconds
 * Repeat i and ii, but now with R<sub>2</sub> reduced to 100 kbps.
     * ANSWER
 
