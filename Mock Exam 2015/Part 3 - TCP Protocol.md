@@ -3,7 +3,9 @@
 * ANSWER (Expects a picture)
 
 #### What is the difference between congestion control and flow control? How are both realised in TCP?
-* ANSWER
+* Flow control: Receiver side. Ensures sender can only send what the receiver can handle
+* Congestion control: Method of ensuring everyone on the network has a "fair" amount of access to netowrk resources
+* HOW ARE BOTH REALISED IN TCP
 
 #### The picture in Figure 1 displays the behaviour of a TCP Reno.
 ![alt text](https://github.com/Kayui/tsamnotes/blob/master/Mock%20Exam%202015/figure1.png "Figure 1")

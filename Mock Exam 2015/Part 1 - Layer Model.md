@@ -1,15 +1,15 @@
 # Part 1: Layer Model
 #### What are the five layers in the Internet protocol stack? What are the principal responsibilities of each of these layers?
 * Application Layer
-    * RESPONSIBILITY
+    * Supporting network applications
 * Transport Layer
-    * RESPONSIBILITY
+    * Process-process data transfer
 * Network Layer
-    * RESPONSIBILITY
+    * Routing datagrams from source to destination
 * Link Layer
-    * RESPONSIBILITY
+    * Data transfer between neighboring network elements
 * Physical Layer
-    * RESPONSIBILITY
+    * Transfer bits on a wire
 
 #### For each of the following protocols, indicate the layer it belongs to:
 * DNS: 
@@ -17,7 +17,7 @@
 * UPD: 
     * ANSWER
 * IP:
-    * ANSWER
+    * Network Layer
 * OSPF:
     * ANSWER
 * CSMA:
@@ -25,13 +25,13 @@
 
 #### Indicate the layer we use logical addresses and what they are called.
 * On what layer do we use logical addresses?
-    * ANSWER
+    * Network Layer
 * How do we call logical addresses?
-    * ANSWER
+    * IP address
 * On what layer do we use physical addresses?
-    * ANSWER
+    * Link Layer
 * How do we call physical addresses?
-    * ANSWER
+    * MAC address
 
 #### Suppose Host A wants to send a large file to Host B. The path from Host A to Host B has three links, of rates R<sub>1</sub> = 500 kbps, R<sub>2</sub> = 2 Mbps, R<sub>3</sub> = 1 Mbps
 * i. Assuming no other traffic in the network, what is the throughput for the file transfer?
