@@ -46,6 +46,6 @@
 * What is the propagation delay of the link?
     * __d<sub>prop</sub>__ = distance / speed = 36 / 240 = 0.15 seconds
 * What is the bandwidth-delay product, R ⋅ d<sub>prop</sub>?
-    * ANSWER11
+    * ANSWER
 * Let x denote the size of the photo. What is the minimum value of x for the microwave link to be continuously transmitting?
     * ANSWER
