@@ -43,7 +43,14 @@ else{
 #### Indicate the broadcast address for each of the following subnets.
 * NOTE: [This was answered nicely on piazza](https://piazza.com/class/irhlughcpnt1q4?cid=304)
 * 192.168.1.0/24
-    * ANSWER
+    * 11000000 10101000 00000001 00000000
+    *	!11111111 11111111 11111111 00000000
+    * = 00000000 00000000 00000000 11111111
+	
+    *   11000000 10101000 00000001 00000000
+    * | 00000000 00000000 00000000 11111111
+    *   11000000 10101000 00000001 11111111
+    * 192.168.1.255
 * 192.168.1.0/25
     * ANSWER
 * 192.168.128.128/25
