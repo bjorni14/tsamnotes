@@ -4,6 +4,7 @@
 
 #### Consider a short, 10 m link, over which a sender can transmit at a rate of 150 bit/s in both directions. Suppose that packets containing data are 100 000 bit long, and packets containing only control (e.g. ACK or hand-shaking) are 200 bit long. Assume that N parallel connections each get 1∕N of the link bandwidth. Now consider the HTTP protocol, and suppose that each downloaded object is 100 kbit long, and that the initial downloaded object contains 10 referenced objects from the same sender.
 * Would parallel downloads via parallel instances of non-persistent HTTP make sense in this case? Justify your answer.
+    * __This is work in progress__
     * Distance: 10 m ( too short to bother with propagation time, we're talking nanoseconds )
     * Transmit Rate (__TR__): 150 bit/s
     * Data Packets (__DP__): 100 000 bit long
