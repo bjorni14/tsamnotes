@@ -33,5 +33,5 @@
     * ANSWER
 * On what layer do we use physical addresses?
     * ANSWER
-* How do we call physical addresses?+
+* How do we call physical addresses?
     * ANSWER
