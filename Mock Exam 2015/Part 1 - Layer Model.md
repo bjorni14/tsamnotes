@@ -14,12 +14,12 @@
 #### For each of the following protocols, indicate the layer it belongs to:
 * DNS: 
     * Application Layer ( [source](https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)) )
-* UPD: Transport Layer ( [source](https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)) )
-    * ANSWER
-* IP:
+* UPD:
+    * Transport Layer ( [source](https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)) )
+* IP: 
     * Network Layer
 * OSPF:
-    * ANSWER
+    * 
 * CSMA:
     * ANSWER
 
