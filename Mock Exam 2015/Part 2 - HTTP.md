@@ -12,6 +12,9 @@
     * N parallel connections get 1/N of the link bandwidth
     * Initial Download is 10 referenced objects from the same sender
         * This gives us the following formula for the first object: ((__CP__`*`3) + __DP__) / __TR__
+            * This adds up to ((200 `*` 3) + 100000) / 150 = ~671 seconds
         * And the following formula for the remaining 10 objects: ((__CP__`*`3) + __DP__) / (__TR__ / 10)
+            * This adds up to ((200 `*` 3) + 100000) / (150/10) = ~6707
+        * This all adds up to 671+6707 = ~7378 seconds
 * Now consider persistent HTTP. Do you expect significant gains over the non-persistent case? Justify and explain your answer.
     * ANSWER
