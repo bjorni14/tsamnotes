@@ -1,12 +1,30 @@
 # Part 4: Packet Switching
 #### What is the purpose of the ARP protocol?
-* ANSWER
+* __A__ddress __R__esolution __P__rotocol
+* ARP has the purpose of converting IP Addresses to Physical Addresses
 
 #### How does the ARP protocol work?
-* ANSWER
+ When an IP addresses MAC address is unknown a broadcast packet is sent that hits all the machines on the network, the machine with the correct IP Address will respond
 
 ####  Explain the purpose of a switch: what steps does a switch perform when a packet arrived.
-* ANSWER
+* It stores and forwards Ethernet Frames
+* 1. Record incoming link, MAC address of the sending host
+* 2. Indexes switch table using MAC destination address
+* 3. Run the following pseudocode:
+```c
+if(entry found for destination) {
+    if(destination on segment from which frame arrived) {
+        // drop frame
+    }
+    else{
+        // forward frame on interface indicated by entry
+    }
+}
+else{
+    // forward on all interfaces except arriving interface
+}
+```  
+
 
 ####  How does a switching table look like? Explain the purpose of each field.
 * ANSWER
