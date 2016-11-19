@@ -1,5 +1,5 @@
 # Part 8: Network Server Code
-#### Consider the source code of a network server below
+#### Consider the source code of a network server below:
 ```c
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -24,5 +24,19 @@ int main(int argc, char **argv)
         printf("%s:%d said %s\n", inet_ntoa(client.sin_addr), ntohs(client.sin_port), message);
     }
 }
-
 ```
+* What transport protocol is used by this program?
+    * ANSWER
+* What network protocol is used by this program?
+    * ANSWER
+* What does this program do?
+    * ANSWER
+*  Identify and explain the main network functions used in this program.
+    * ANSWER
+* This program contains a security error
+    * In what line is the error?
+        * ANSWER
+    * What security property may be violated by this error?
+        * ANSWER
+    * How would you correct the error?
+        * ANSWER
