@@ -10,18 +10,18 @@
 #### The picture in Figure 1 displays the behaviour of a TCP Reno.
 ![alt text](https://github.com/Kayui/tsamnotes/blob/master/Mock%20Exam%202015/figure1.png "Figure 1")
 * Identify the time intervals where TCP slow-start is operating.
-    * ANSWER
+    * 1-5 and 22-24
 * Identify the time intervals where TCP congestion-avoidance is operating.
-    * ANSWER
+    * 5-15 and 16-21
 * After the __16th__ transmission round, is segment loss detected by a triplicate ACK or by a time-out? Justify your answer.
-    * ANSWER
+    * Tripple ACK, as the cwnd size is devided by 2 and not decreaced to 1MSS as when a loss is detected.
 * After the __22nd__ transmission round, is segment loss detected by a triplicate ACK or by a time-out? Justify your answer.
-    * ANSWER
+    * A time-out is experienced as the cwnd size is set to 1MSS.
 * What is the value of ssthresh at the __first__ transmission round? Justify your answer.
-    * ANSWER
+    * 32, thats when slow start stops
 * What is the value of ssthresh after the __16th__ transmission round? Justify your answer.
-    * ANSWER
+    * 21 as its cwnd/2
 * What is the value of ssthresh after the __22th__ transmission round? Justify your answer.
-    * ANSWER
+    * its 13 as its cwnd/2
 * Explain why TCP is fair and UDP is not.
     * ANSWER
