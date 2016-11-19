@@ -11,6 +11,7 @@
     * Control(handshake) Packets (__CP__): 200 bit long
     * N parallel connections get 1/N of the link bandwidth
     * Initial Download is 10 referenced objects from the same sender
-        * This gives us the following formula: ((__CP__`*`3) + __DP__) / __TR__
+        * This gives us the following formula for the first object: ((__CP__`*`3) + __DP__) / __TR__
+        * And the following formula for the remaining 10 objects: ((__CP__`*`3) + __DP__) / (__TR__ / 10)
 * Now consider persistent HTTP. Do you expect significant gains over the non-persistent case? Justify and explain your answer.
     * ANSWER
