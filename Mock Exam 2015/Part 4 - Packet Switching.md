@@ -41,7 +41,7 @@ else{
 * A method to allow more flexible allocation of IP Addresses
 
 #### Indicate the broadcast address for each of the following subnets.
-* NOTE: This was answered nicely on piazza
+* NOTE: [This was answered nicely on piazza](https://piazza.com/class/irhlughcpnt1q4?cid=304)
 * 192.168.1.0/24
     * ANSWER
 * 192.168.1.0/25
