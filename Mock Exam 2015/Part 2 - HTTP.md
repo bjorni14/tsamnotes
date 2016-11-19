@@ -12,12 +12,15 @@
     * Initial Download is 10 (__N__) referenced objects from the same sender
     * This gives us the following formula for the initial object: ((__CP__`*`3) + __DP__) / __TR__
         * This adds up to ((200 `*` 3) + 100000) / 150 = ~671 seconds
-    * And the following formula for the remaining 10 objects: ((__CP__`*`3) + __DP__) / (__TR__ / 10)
-        * This adds up to ((200 `*` 3) + 100000) / (150/10) = ~6707
+    * And the following formula for the remaining 10 objects: ((__CP__`*`3) + __DP__) / (__TR__ / __N__)
+        * This adds up to ((200 `*` 3) + 100000) / (150/10) = ~6707 seconds
     * This all adds up to 671+6707 = ~7378 seconds
     * Yes, it would make sense.
 * Now consider persistent HTTP. Do you expect significant gains over the non-persistent case? Justify and explain your answer.
     * Considering the same premise as above the only change is doing the ACK handshake once.
     * This gives us the __same__ formula for the initial object: ((__CP__`*`3) + __DP__) / __TR__
         * This adds up to ((200 `*` 3) + 100000) / 150 = ~671 seconds
-    * And an altered formula for the remaining 10 objects: ((__CP__ / __TR__) + (N`*`(__DP__ / __TR__)))
+    * And an altered formula for the remaining 10 objects: ((__CP__ / __TR__) + (__N__`*`(__DP__ / __TR__)))
+        * This adds up to ((200/150) + (10*(100000/150))) = 6668 seconds
+    * This all adds up to ~671 + 6668 = ~7339
+    * This gives us a difference of ~39 seconds which is relatively small considering the total time.
