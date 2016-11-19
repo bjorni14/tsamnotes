@@ -19,9 +19,9 @@
 * IP: 
     * Network Layer
 * OSPF:
-    * 
+    * Network Layer ( [source](https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)) )
 * CSMA:
-    * ANSWER
+    * Physical Layer ( [source](http://www.linfo.org/csma_cd.html) )
 
 #### Indicate the layer we use logical addresses and what they are called.
 * On what layer do we use logical addresses?
