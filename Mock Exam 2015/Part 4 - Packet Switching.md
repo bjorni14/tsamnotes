@@ -1,6 +1,6 @@
 # Part 4: Packet Switching
 #### What is the purpose of the ARP protocol?
-* __A__ddress __R__esolution __P__rotocol
+* Address Resolution Protocol
 * ARP has the purpose of converting IP Addresses to Physical Addresses
 
 #### How does the ARP protocol work?
