@@ -35,3 +35,11 @@
     * ANSWER
 * How do we call physical addresses?
     * ANSWER
+
+## Suppose Host A wants to send a large file to Host B. The path from Host A to Host B has three links, of rates R<sub>1</sub> = 500 kbps, R<sub>2</sub> = 2 Mbps, R<sub>3</sub> = 1 Mbps
+* i. Assuming no other traffic in the network, what is the throughput for the file transfer?
+    * ANSWER
+* ii. Suppose the file is 4 million bytes. Dividing the file size by the throughput, roughly how long will it take to transfer the file to Host B?
+    * ANSWER
+* Repeat i and ii, but now with R<sub>2</sub> reduced to 100 kbps.
+    * ANSWER
