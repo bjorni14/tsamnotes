@@ -44,7 +44,7 @@
 
 #### Suppose there is a 1 Mbit/s microwave link between a geostationary satellite and its base station on Earth (distance of about 36 Mm). Every 30 seconds, the satellite takes a digital photo and sends it to the base station. Assume a propagation speed of 240 Mm/s.
 * What is the propagation delay of the link?
-    * ANSWER
+    * distance / speed = 36 / 240 = 0.15
 * What is the bandwidth-delay product, R ⋅ d<sub>prop</sub>?
     * ANSWER
 * Let x denote the size of the photo. What is the minimum value of x for the microwave link to be continuously transmitting?
