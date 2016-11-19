@@ -27,15 +27,21 @@ else{
 
 
 ####  How does a switching table look like? Explain the purpose of each field.
-* ANSWER
+* It has 3 fields
+    * MAC address of host
+    * Interface of host
+    * time stamp
 
 #### What is the difference between routing and forwarding?
-* ANSWER
+* Routing is the act of finding a path for a packet from sender to receiver
+* Forwarding is the act of sending the packer through said route
 
 ####  Define the term Classless Inter-Domain Routing (CIDR)?
-* ANSWER
+* Also called Supernetting
+* A method to allow more flexible allocation of IP Addresses
 
 #### Indicate the broadcast address for each of the following subnets.
+* NOTE: This was answered nicely on piazza
 * 192.168.1.0/24
     * ANSWER
 * 192.168.1.0/25
