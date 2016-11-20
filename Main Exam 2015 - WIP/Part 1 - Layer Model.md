@@ -26,7 +26,6 @@
 #### Suppose you would like to urgently deliver 20 TB of data from Boston to Los Angeles. You have available a 100 MB s<sup>−1</sup> dedicated link for data transfer. Would you prefer to transmit the data via this link or instead use FedEx overnight delivery? Explain.
 * ANSWER
 
-/*******************************
 #### Suppose there is a 10 Mbit/s microwave link between a geostationary satellite and its base station on Earth (distance of about 36 Mm). Every minute, the satellite takes a digital photo and sends it to the base station. Assume a propagation speed of 240 Mm/s.
 * What is the propagation delay of the link?
     * __d<sub>prop</sub>__ = distance / speed = 36 / 240 = 0.15 seconds
