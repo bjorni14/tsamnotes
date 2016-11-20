@@ -50,7 +50,7 @@ else{
             * 11111111 11111111 11111111 00000000
         * Next we negate the subnet mask:
             * 00000000 00000000 00000000 11111111
-        * Then we or ( | ) the subnet mask and the binary representation of the ip
+        * Then we or ( | ) the negated subnet mask and the binary representation of the ip
             *   11000000 10101000 00000001 00000000
             * | 00000000 00000000 00000000 11111111
             * = 11000000 10101000 00000001 11111111
