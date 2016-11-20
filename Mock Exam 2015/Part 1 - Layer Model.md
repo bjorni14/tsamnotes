@@ -48,4 +48,5 @@
 * What is the bandwidth-delay product, R ⋅ d<sub>prop</sub>?
     * __d<sub>prop</sub>__ `*` R = 0.15 `*` 10<sup>6</sup> = 150000 = 1.5`*`10<sup>5</sup> bits
 * Let x denote the size of the photo. What is the minimum value of x for the microwave link to be continuously transmitting?
-    * ANSWER
+    * There is a 30 second window between transmissions
+    * X = 30 seconds `*` 1Mbit/s = 30 `*` 10<sup>6</sup> = 30 000 000 bits = 30Mb
