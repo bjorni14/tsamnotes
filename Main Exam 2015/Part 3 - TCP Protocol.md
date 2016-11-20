@@ -3,7 +3,7 @@
 ![alt text](https://github.com/Kayui/tsamnotes/blob/master/Main%20Exam%202015/figure1.png "Figure 1")
 * Identify the intervals of transmission rounds when TCP slow-start is operating.
     * ANSWER
-* Identify the intervals of transmission rounds where TCP congestionavoidance is operating.
+* Identify the intervals of transmission rounds where TCP congestion-avoidance is operating.
     * ANSWER
 * After the __16th__ transmission round, is segment loss detected by a triple duplicate ACK or by a time-out? Justify your answer.
     * ANSWER
