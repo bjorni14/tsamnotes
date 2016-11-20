@@ -13,15 +13,15 @@
 
 #### For each of the following protocols, indicate the layer it belongs to:
 * HTTP: 
-    * ANSWER
+    * Application layer
 * TCP:
-    * ANSWER
+    * Transport layer
 * IP: 
     * Network Layer
 * RIP:
-    * ANSWER
+    * Application layer
 * ALOHA:
-    * ANSWER
+    * Physicial layer
 
 #### Suppose you would like to urgently deliver 20 TB of data from Boston to Los Angeles. You have available a 100 MB s<sup>−1</sup> dedicated link for data transfer. Would you prefer to transmit the data via this link or instead use FedEx overnight delivery? Explain.
 * ANSWER
