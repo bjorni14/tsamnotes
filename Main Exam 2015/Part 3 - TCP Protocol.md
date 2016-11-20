@@ -29,5 +29,6 @@
     * ANSWER
 * Again, suppose there are triple duplicate ACKs received at the __16th__ round and there is a timeout event at the __22nd__ round. How many packets have been sent out from __17th__ till __22nd__ round, inclusive? Justify your answer.
     * ANSWER
-* What is the difference between congestion control and flow control? How are both realised in TCP?
-    * ANSWER
+
+#### What is the difference between congestion control and flow control? How are both realised in TCP?
+* ANSWER
