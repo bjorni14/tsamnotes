@@ -1,10 +1,13 @@
 # Part 4: IP Protocol
 #### On what layer do we use logical addresses?
 * ANSWER
+
 #### What do we call logical addresses?
 * ANSWER
+
 #### On what layer do we use physical addresses?
 * ANSWER
+
 #### What do we call physical addresses?
 * ANSWER
 
