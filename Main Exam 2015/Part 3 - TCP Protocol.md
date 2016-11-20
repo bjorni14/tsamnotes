@@ -2,19 +2,19 @@
 #### The picture in Figure 1 displays the behaviour of a TCP Reno.
 ![alt text](https://github.com/Kayui/tsamnotes/blob/master/Main%20Exam%202015/figure1.png "Figure 1")
 * Identify the intervals of transmission rounds when TCP slow-start is operating.
-    * ANSWER
+    * 1-6
 * Identify the intervals of transmission rounds where TCP congestion-avoidance is operating.
-    * ANSWER
+    * 32-4(2)?
 * After the __16th__ transmission round, is segment loss detected by a triple duplicate ACK or by a time-out? Justify your answer.
-    * ANSWER
+    * triple ack. cwdn is set to 1/2
 * After the __22nd__ transmission round, is segment loss detected by a triple duplicate ACK or by a time-out? Justify your answer.
-    * ANSWER
+    * Timeout. cwnd is set to 1.
 * What is the __initial__ value of ssthresh? Justify your answer
-    * ANSWER
+    * 32. We can see that the congestion avoidance starts there.
 * What is the value of ssthresh after the __18th__ transmission round? Justify your answer.
-    * ANSWER
+    * 2(1)? half of 4(2)
 * What is the value of ssthresh after the __24th__ transmission round? Justify your answer.
-    * ANSWER
+    * 10.5 half of 2(1)?
 * During what transmission round is the 70th segment sent?
     * ANSWER
 * Assuming a a packet loss is detected after the __26th__ round by the receipt of a triple duplicate ACK, what will be the values of the congestion window size? Justify your answer.
