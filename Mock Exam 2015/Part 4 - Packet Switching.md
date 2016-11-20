@@ -46,7 +46,7 @@ else{
     * Calculation with explanation:
         * 192.168.1.0 in binary: 
             * 11000000 10101000 00000001 00000000
-        * 24 in binary with the same number of bits is the subnet mask:
+        * converting /24 to a subnet mask means doing 24 1's from left to right
             * 11111111 11111111 11111111 00000000
         * Next we negate the subnet mask:
             * 00000000 00000000 00000000 11111111
@@ -59,8 +59,33 @@ else{
         * Profit!
 
 * 192.168.1.0/25
-    * ANSWER
+    * Calculation with explanation:
+        * 192.168.1.0 in binary: 
+            * 11000000 10101000 00000001 00000000
+        * converting /25 to a subnet mask means doing 25 1's from left to right 
+            * 11111111 11111111 11111111 10000000
+        * Next we negate the subnet mask:
+            * 00000000 00000000 00000000 01111111
+        * Then we or ( | ) the negated subnet mask and the binary representation of the ip
+            *   11000000 10101000 00000001 00000000
+            * | 00000000 00000000 00000000 01111111
+            * = 11000000 10101000 00000001 01111111
+        * Finally we convert the result back to ip format
+            * 192.168.1.127
+            
 * 192.168.128.128/25
-    * ANSWER
+    * Calculation with explanation:
+        * 192.168.128.128 in binary: 
+            * 11000000 10101000 10000000 10000000
+        * converting /25 to a subnet mask means doing 25 1's from left to right 
+            * 11111111 11111111 11111111 10000000
+        * Next we negate the subnet mask:
+            * 00000000 00000000 00000000 01111111
+        * Then we or ( | ) the negated subnet mask and the binary representation of the ip
+            *   11000000 10101000 10000000 10000000
+            * | 00000000 00000000 00000000 01111111
+            * = 11000000 10101000 10000000 11111111 
+        * Finally we convert the result back to ip format
+            * 192.168.128.255
 * To which of the three subnets above does the IP address 192.168.1.222 belong?
     * ANSWER

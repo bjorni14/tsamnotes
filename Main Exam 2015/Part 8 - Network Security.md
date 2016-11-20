@@ -1,4 +1,4 @@
-# Part 7: Network Security
+# Part 8: Network Security
 #### In what way does a hash provide a better message integrity check than a checksum (such as the Internet checksum)?
 * An Internet checksum does not attempt to prevent collisions.
 
