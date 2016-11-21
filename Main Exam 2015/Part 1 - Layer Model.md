@@ -21,7 +21,7 @@
 * RIP:
     * Application layer
 * ALOHA:
-    * Physicial layer
+    * ~~Physicial layer~~ Link Layer (Source: L-46: Model Exam lecture @03:43)
 
 #### Suppose you would like to urgently deliver 20 TB of data from Boston to Los Angeles. You have available a 100 MB s<sup>−1</sup> dedicated link for data transfer. Would you prefer to transmit the data via this link or instead use FedEx overnight delivery? Explain.
 * ANSWER
