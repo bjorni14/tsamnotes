@@ -7,7 +7,7 @@
     * 3 224.000.000.000/8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
     * 4 225.000.000.000/9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
     * 5 Otherwise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3
-* Describe how your forwarding table determines the appropriate link interface for datagrams with the destination addresses:
+* Describe how your forwarding table determines the appropriate link interface for datagrams with the destination addresses:  
 **NOTE:** i am not 100% sure on this.
     * 200.145.81.85
         * Matches non of addresses, so record 5 (link 3)
