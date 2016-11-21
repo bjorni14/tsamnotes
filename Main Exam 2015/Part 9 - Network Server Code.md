@@ -40,6 +40,11 @@ int main(int argc, char **argv)
     * sockfd = socket(AF_INET, SOCK_STREAM, 0); Creates a new IPv4 socket that uses tcp for transport.
     * bind(sockfd, (struct sockaddr *) &server, (socklen_t) sizeof(server)); Assigns a address or "name" to the socket.
     * listen(sockfd, 1); Waits for connections on socket fd. the socket is now listening on the port bound (32000).
+    * int fd = accept(sockfd, NULL, NULL); Accepts the new connection. This is **necessary** for TCP communication.
+    * recv(fd, message, sizeof(message) - 1, 0); Waits for a message from the client
+    * send(fd, message, sizeof(message), 0); Sends the message to the client
+    * shutdown(fd, SHUT_RDWR); attempts to shutdown the fd. SHUT_RDWR = further transmissions & reads not allowed
+    * close(fd); close the socket
 * This program contains a security defect 
     * In what line is the failure?
         * send(fd, message, sizeof(message), 0). This should be strlen(message), otherwise it will send the whole message buffer.
