@@ -10,7 +10,7 @@
 * Describe how your forwarding table determines the appropriate link interface for datagrams with the destination addresses:  
 **NOTE:** i am not 100% sure on this.
     * 200.145.81.85
-        * Matches non of addresses, so record 5 (link 3)
+        * Matches non of the addresses, so record 5 (link 3)
     * 224.64.195.60
         * Record 2 (Link 1)
     * 225.128.17.119
