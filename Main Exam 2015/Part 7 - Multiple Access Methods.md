@@ -27,4 +27,7 @@
 * When we have a low chance of two nodes transmitting at the same time.
 
 #### Consider a broadcast channel with N nodes and a transmission rate of R bit s<sup>−1</sup>. Suppose the broadcast channel uses polling (with an additional polling node) for multiple access. Suppose the amount of time from when a node completes transmission until the subsequent node is permitted to transmit (that is, the polling delay) is d<sub>poll</sub>. Suppose that within a polling round, a given node is allowed to transmit at most Q bit. What is the maximum throughput of the broadcast channel?
-* ANSWER
+**NOTE:** not sure if `"with an additional polling node`" changes anything.  
+
+* 1. Calculate the length of the polling round: N(Q/R+d<sub>poll</sub>)
+* 2. Calculate the max throughput = N*Q/N(Q/R+d<sub>poll</sub>)
