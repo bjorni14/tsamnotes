@@ -8,7 +8,18 @@
 * If the client receives data which doesn't belong to him while he is transmitting, there has been a collision and every node that is transmitting has to try to send again later. 
 
 #### Compare TDMA to ALOHA. What are the advantages and disadvantages?
-* ANSWER
+**TDMA pros:**
+* Nodes take turns transmitting to avoid collisions. Less data is lost
+**TDMA cons:**
+* TDMA only allows a transfer rate of R/N (Rate of link/Number of nodes).
+* Lots of time waiting.
+
+**ALOHA pros:**
+* ALOHA allows the node to use the total transfer rate of the link.
+* Nodes spend less time waiting (as long as there arent a lot of collisions)
+**ALOHA cons:**
+* The chance of a collision is hight if there are many clients.
+* A lot af data is lost. (If there is a collision, the data is discarded)
 
 #### Under what circumstances should we prefer ALOHA over TDMA?
 * ANSWER
