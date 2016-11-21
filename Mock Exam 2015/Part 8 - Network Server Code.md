@@ -26,13 +26,15 @@ int main(int argc, char **argv)
 }
 ```
 * What transport protocol is used by this program?
-    * ANSWER
+    * socket(AF_INET, SOCK_DGRAM, 0) is using SOCK_DGRAM = UDP
 * What network protocol is used by this program?
-    * ANSWER
+    * socket(AF_INET, SOCK_DGRAM, 0) is using AF_INET = IPv4 (AF_INET6 = IPv6)
 * What does this program do?
-    * ANSWER
+    * It waits for a message from a client and prints it to stdout.
 *  Identify and explain the main network functions used in this program.
-    * ANSWER
+    * sockfd = sockfd = socket(AF_INET, SOCK_DGRAM, 0); Creates a new IPv4 socket that uses UDP for transport.
+    * bind(sockfd, (struct sockaddr *) &server, (socklen_t) sizeof(server)); Assigns a address or "name" to the socket.
+    * recvfrom(sockfd, message, sizeof(message) - 1, 0, (struct sockaddr *) &client, &len); waits for a message from a client.
 * This program contains a security error
     * In what line is the error?
         * ANSWER
