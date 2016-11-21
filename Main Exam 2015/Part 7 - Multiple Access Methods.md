@@ -4,7 +4,8 @@
 * A channel access method that allows several users to share the same frequency channel by dividing the signal into different time slots. The users transmit in rapid succession, one after the other, each using it's own time slow. [Source](https://issuu.com/warse/docs/ijeter01352015)
 
 ####  How does (pure) ALOHA work?
-* ANSWER
+* If the client or node has data to send, it will send it.
+* If the client receives data which doesn't belong to him while he is transmitting, there has been a collision and every node that is transmitting has to try to send again later. 
 
 #### Compare TDMA to ALOHA. What are the advantages and disadvantages?
 * ANSWER
